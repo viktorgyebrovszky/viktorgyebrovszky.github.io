@@ -176,6 +176,17 @@ body {
   margin-bottom: 0px;
 }
 
+/* right */
+
+.btn {
+  background-color: #76ACC9;
+  border: outset;
+  color: #201D39;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
 .resume .resume_right .semi-bold {
   color: #000000;
   margin-bottom: 0px;
