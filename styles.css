@@ -270,8 +270,8 @@ li {
 }
 
 .project-img{
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 260px;
   padding: 0;
   border-radius: 100%;
   border: 10px solid #D5D6CF;
@@ -303,7 +303,7 @@ li {
 }
 
 
-
+/* githup image for crousel */
 .skill-img-2 {
     height: 1.5rem;
     width: 1.5rem;
