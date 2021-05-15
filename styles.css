@@ -109,6 +109,11 @@ html, body{
   color: black;
 }
 
+#front-quote{
+  font-size: 24px;
+  opacity: 0.7;
+  padding: 3%;
+}
 
 /* SECTION 2 */
 .section-2{
