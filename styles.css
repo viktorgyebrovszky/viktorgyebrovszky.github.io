@@ -312,11 +312,11 @@ li {
     background-color: #8D8E88;
   }
 
-
+/* SIDEBAR CONTACT */
   /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 50%;
+  top: 55%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -332,7 +332,6 @@ li {
   font-size: 20px;
 }
 
-/* SIDEBAR CONTACT */
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   background-color: #000;
