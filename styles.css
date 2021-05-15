@@ -83,7 +83,7 @@ html, body{
 
 /* SECTION 1 */
 .section-1{
-        height: 93.7vh;
+        /* height: 93.7vh; */
         background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(images/image1.jpg);
         background-attachment: fixed;
         background-size: cover;
@@ -112,7 +112,8 @@ html, body{
 #front-quote{
   font-size: 24px;
   opacity: 0.7;
-  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 24%;
 }
 
 /* SECTION 2 */
