@@ -62,7 +62,7 @@ html, body{
 }
 
 /* TYPEWRITER LETTERS */
-.typewrite{
+.typewrite {
   /* color:#2DC838; */            /*include this only if you need a hyperlink*/
   text-decoration: none;
   width: 100%;
