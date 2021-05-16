@@ -1,0 +1,442 @@
+/* SMOOTH SCROLL DOWN FOR SECTIONS */
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* IMAGE */
+.resume_profile{
+  width: 18rem;;
+  padding: 0;
+  border-radius: 70%;
+  border: 10px solid #BDC9D1;
+  /* border-top-left-radius: 164px;
+  border-bottom-left-radius: 164px;
+  border-right: 0; */
+}
+
+.padded{
+  text-align: left;
+  /* border: 10px solid #BDC9D1;
+  border-left: 0; */
+}
+
+/* NAVBAR */
+#CV{
+  color: #BAB0FF;
+  padding: 8px;
+}
+
+#CV:hover {
+  color: #00990B;
+  border: 2px solid #00990B;
+  border-radius: 0.3rem;
+  padding: 6px;
+}
+
+.navbar-custom {
+    background-color: #0A0916;  /*background_color of navbar*/
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.navbar-brand{
+  font-size: 0.9rem;
+}
+
+.nav-item{
+  padding: 0 7px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* TYPEWRITER LETTERS */
+.typewrite {
+  /* color:#2DC838; */            /*include this only if you need a hyperlink*/
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.box{
+  width: 100%;
+  padding: 20px 20px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* SECTIONS */
+
+/* SECTION 1 */
+.section-1{
+        /* height: 93.7vh; */
+        background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(images/image1.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 1;
+        padding-top: 18%;
+}
+
+.linemain{
+  width: 50%;
+  height: 1px;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.box p{
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.3;
+}
+
+.box h1{
+  font-size: 60px;
+  color: black;
+}
+
+#front-quote{
+  font-size: 24px;
+  opacity: 0.7;
+  padding-top: 3%;
+  padding-bottom: 24%;
+}
+
+/* SECTION 2 */
+.section-2{
+  background: #CCD5E6;
+  /* height: 150vh; */
+  padding:3% 10% 3% 10%;
+}
+
+/* SKILL LIST */
+ul.no-bullets{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px
+}
+
+li {
+    display: list-item;
+    text-align: left;
+    /* padding: 0; */
+}
+
+.ability-title{
+  display: inline-block;
+  width: 60%;
+  font-weight: 600;
+}
+
+.ability-score{
+  text-align: right;
+}
+
+.star-filled{
+  color: rgba(27,38,44);
+  align-self: center;
+}
+
+.star-not-filled{
+  color: rgba(27,38,44,.2);
+  align-self: center;
+}
+
+.skill-img {
+    height: 2rem;
+    width: 2rem;
+    margin: .3rem;
+}
+
+/* H2 */
+.box h2{
+  font-size: 50px;
+  font-weight: lighter;
+  color: black;
+  margin: 0;
+}
+
+.row{
+  margin: 0;
+}
+
+/* SECTION 3, 5 */
+.section-3{
+  background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(images/image1.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      /* height: 100px; */
+}
+
+.quote-pic{
+  color:#000000;
+  /* font-weight: bold; */
+  background: rgba(204, 204, 204, 0.5);
+  display: inline;
+  border-radius: 0.2rem;
+}
+
+/* SECTION 4 */
+.section-4{
+  background: #EAEBE3;
+  padding:3% 10% 4% 10%;
+}
+
+.jobs{
+  text-align: left;
+}
+
+.job-title{
+  font-weight: bold;
+}
+
+.job-place{
+  font-weight: bold;
+}
+
+.job-img {
+    height: 10rem;
+    width: 10rem;
+    margin: .3rem;
+}
+
+.job-description ul{
+    list-style-image: url(images/bullet.png);
+    padding: 15px 15px 15px 13px;
+    margin-left: none;
+}
+
+/* SECTION 6 */
+.section-6{
+  background: #CCD5E6;
+  padding:3% 7% 3% 7%;
+}
+
+.uni-program{
+  font-weight:bold;
+  font-size: 18px;
+}
+
+.uni-degree{
+  font-size: 14px;
+}
+
+.uni-grade{
+  font-size: 14px;
+}
+
+.uni-img{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.course-img{
+
+  height: 1rem;
+  width: 1rem;
+  margin: .3rem;
+}
+
+.course-img-class{
+  text-align: right;
+  padding: 0;
+}
+
+.course{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+/* SECTION 8 */
+.section-8{
+  background: #EAEBE3;
+
+}
+
+.project-img{
+  width: 15rem;
+  height: 15rem;
+  padding: 0;
+  border-radius: 100%;
+  border: 10px solid #D5D6CF;
+  /* border-top-left-radius: 164px;
+  border-bottom-left-radius: 164px;
+  border-right: 0; */
+}
+
+.carousel-item{
+  padding:0 15% 0 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+}
+
+.project-topic{
+  /* display: inline; */
+  /* padding: 7px;
+  border: 1px solid; */
+  padding: 20px;
+  border-radius: 0.3rem;
+}
+
+.btn{
+  display: inline;
+  padding: 7px;
+}
+
+
+/* githup image for crousel */
+.skill-img-2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: .3rem;
+}
+
+.carousel-indicators{
+  position: absolute;
+  }
+
+  .carousel-indicators li{
+    background-color: #8D8E88;
+  }
+
+/* SIDEBAR CONTACT */
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 53%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.go-up {
+
+}
+
+.email {
+  background: #ABABA6;
+  color: white;
+}
+
+.phone {
+  background: #9A9A96;
+  color: white;
+}
+
+.linkedin {
+  background: #7F7F7B;
+  color: white;
+}
+
+.github {
+  background: #71716E;
+  color: white;
+}
+
+.location {
+  background: #5E5E5B;
+  color: white;
+}
+
+
+/* POPUP */
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.popup:hover {
+  background-color: #000;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 75%;
+  margin-left: 0px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/* COPYRIGHT */
+.copyright{
+  font-size: 12px;
+  padding-bottom: 1px;
+    padding-top: 1px;
+}
