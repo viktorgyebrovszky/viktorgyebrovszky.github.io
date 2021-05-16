@@ -19,7 +19,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 
 	<!-- TYPER JS -->
-	<script src="js/bootstrap.js"></script>
+	<!-- <script src="js/bootstrap.js"></script> -->
 	<script type="text/javascript" src="js/typer.js"></script>
 	<script type="text/javascript" src="js/fade-out.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
@@ -32,14 +32,14 @@
 
 <body>
 	<div class="container-fluid">
-		<div class="navigator">
+		<div class="navigator" id="navbar">
 
 			<nav class="navbar navbar-expand-md navbar-dark navbar-custom">
 				<a class="navbar-brand" href="">
 
 					<div class="">
 						<a class="typewrite" data-period="2000" data-type='[ "Python", "Tableau", "alteryx", "MySQL", "HTML/CSS", "Data Studio", "Excel", "GitHub", "Keras", "NumPy", "Pandas",
-						"Jupyter Notebook", "Docker", "HTML/CSS/JS", "Spark", "Bootstrap", "ScikitLearn", "AWS"  ]'>
+						"Jupyter Notebook", "Docker", "HTML/CSS/JS", "Apache Spark", "Bootstrap", "ScikitLearn", "AWS"  ]'>
 							<span class="wrap"></span>
 						</a>
 					</div>
@@ -87,7 +87,9 @@
 			</div>
 		</div>
 
+		<!-- ICONS LEFT -->
 		<div class="icon-bar">
+			<a href="#navbar" class="go-up"><i class="fas fa-angle-double-up"></i></a>
 			<a href="mailto:v.gyebrovszky@gmail.com" class="email" target="_blank"><i class="fas fa-envelope"></i></a>
 
 			<div class="phone popup" onclick="myFunction()">
@@ -373,7 +375,7 @@
 								</span>
 							</li>
 							<li>
-								<span class="ability-title"><img class="skill-img" src="images/ga.png" alt="logo">Google Analytics</span>
+								<span class="ability-title"><img class="skill-img" src="images/ga.png" alt="logo">GA</span>
 								<span class="ability-score">
 									<span class="star-filled">★</span>
 									<span class="star-filled">★</span>
@@ -409,14 +411,15 @@
 					<div class="job-title">Senior AdOps Reporting Analyst</div>
 					<div class="job-description">
 						<ul>
-							<li>Advanced Alteryx skills: connecting to API sources, building ETL processes and complex workflows, applictation of R. Applied data transformation of every level.</li>
-							<li>Tableau & Data Studio skills: creating complex and visually attractive as well as dynamic reports, live dashboards, simplifying results.</li>
+							<li>Advanced <i>Alteryx</i> skills: connecting to API sources, building ETL processes and complex workflows, applictation of <i>R</i>. Applied data transformation of every level.</li>
+							<li><i>Tableau</i> & <i>Data Studio</i> skills: creating complex and visually attractive as well as dynamic reports, live dashboards, simplifying results.</li>
 							<li>Reporting and dashboards: creating, managing and distributing recurring (daily, weekly, monthly) reports and ad-hoc analyses for internal or third party purpose, producing and running live and dynamic dashboards.</li>
 							<li>Managing cand helping line manager in daily duties: managing the work of several colleagues, leading meetings, liaised with clients and headed large projects.</li>
-							<li>High level of problem solving: being one of the go-to persons in case of a technical challenge, be it Excel, Alteryx, Tableau or Data Studio.</li>
+							<li>High level of problem solving: being one of the go-to persons in case of a technical challenge, be it <i>Excel, Alteryx, Tableau</i> or <i>Data Studio</i>.</li>
 							<li>Seeking new ideas and introducing new methods of data processing and visualisation.</li>
-							<li>Applying Machine Learning techniques for forecasting and budget distribution. Working under time and workload pressure, successfully delivering and matching high expectations of clients.</li>
+							<li>Applying <i>Machine Learning</i> techniques for forecasting and budget distribution. Working under time and workload pressure, successfully delivering and matching high expectations of clients.</li>
 							<li>Strong team working abilities allowed me to enjoy what I do and communicate with colleagues effectively, thus being a pillar of the team.</li>
+							<li>Applying <i>SQL</i> in <i>AWS</i> datalake for table joins and data selection.</li>
 						</ul>
 					</div>
 				</div>
@@ -433,9 +436,9 @@
 					<div class="job-title">Data Analyst</div>
 					<div class="job-description">
 						<ul>
-							<li>Advanced MS Excel / Access skills: data cleaning and formatting, multiple formulae referencing, pivot tables, Power Pivot, VBA, visually attractive and informative reporting.</li>
-							<li>Data collection: using Single Customer View (SCV) database, Salesforce and ESP platforms (Exact Target, Eloqua).</li>
-							<li>Google Sheets and Google Analytics: creating links between GS and GA to report on website traffic performances and visitor retention.</li>
+							<li>Advanced <i>MS Excel / Access</i> skills: data cleaning and formatting, multiple formulae referencing, <i>pivot tables, Power Pivot, VBA</i>, visually attractive and informative reporting.</li>
+							<li>Data collection: using Single Customer View (SCV) database, Salesforce and ESP platforms (<i>Exact Target, Eloqua</i>).</li>
+							<li><i>Google Sheets</i> and <i>Google Analytics</i>: creating links between GS and GA to report on website traffic performances and visitor retention.</li>
 							<li>Database checks: advising database manager on SCV structure, creating data dictionary and running inspections (database health check report, data load report)</li>
 							<li>Segmentation: separating customers into groups based on transactional data (recency, frequency, and monetary value - RFM report), based on contactiblity (data scale report), or based on email activity (email KPIs).</li>
 						</ul>
@@ -454,7 +457,7 @@
 					<div class="job-title">Search Engine Marketing Analyst</div>
 					<div class="job-description">
 						<ul>
-							<li>Analytical skills: learnt and applied SQL and Excel</li>
+							<li>Analytical skills: learnt and applied <i>SQL</i> and <i>Excel</i>.</li>
 							<li>Report writing: preparing, delivering and updating reports based on website activity.</li>
 						</ul>
 					</div>
@@ -514,33 +517,48 @@
 		<h2>Courses</h2>
 		<br>
 		<div class="course">
+
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">The Ultimate MySQL Bootcamp: from SQL Beginner to Expert</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">The Ultimate MySQL Bootcamp: from SQL Beginner to Expert</div>
+				<div class="col-lg-2"></div>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">Tableau 2020 Certifed Associate Exam Guide A-Z</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Tableau 2020 Certifed Associate Exam Guide A-Z</div>
+				<div class="col-lg-2"></div>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">Big Data for Spark</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Big Data for Spark</div>
+				<div class="col-lg-2"></div>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">Machine Learning A-Z™</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Machine Learning A-Z™</div>
+				<div class="col-lg-2"></div>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">The Complete 2021 Web Development Bootcamp</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">The Complete 2021 Web Development Bootcamp</div>
+				<div class="col-lg-2"></div>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/alteryx.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">Alteryx Designer Core</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/alteryx.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Alteryx Designer Core</div>
+				<div class="col-lg-2"></div>
 			</div>
 			<div class="container-fluid row">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-5 course-img-class"><span><img class="course-img" src="images/alteryx.png" alt="job-logo"></span></div>
-				<div class="jobs col-lg-7 col-md-7 col-sm-7 col-7">Alteryx Designer Advanced</div>
+					<div class="col-lg-4"></div>
+				<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/alteryx.png" alt="job-logo"></span></div>
+				<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Alteryx Designer Advanced</div>
+				<div class="col-lg-2"></div>
 			</div>
 		</div>
 	</div>
@@ -572,16 +590,17 @@
 						<a href="https://github.com/viktorgyebrovszky/Computer_Vision/blob/main/Computer_Vision_Plant_seedlings.ipynb" target="_blank" class="btn btn-outline-dark btn-sm" role="button" aria-pressed="true">
 							<img class="skill-img-2" src="images/github.png" alt="logo"> Computer Vision</a>
 					</div>
-					<p class="project-topic">Image recognition and classification of plant seedlings</p>
+					<p class="project-topic">Image classification of plant seedlings</p>
 					<br>
 				</div>
+
 				<div class="carousel-item">
 					<span><img class="project-img" src="images/nlp.png" alt="project-img"></span>
 					<div class="project-topic">
 						<a href="https://github.com/viktorgyebrovszky/NLP/blob/main/NLP_US_Airline_Twitter_Sentiment_Analysis.ipynb" target="_blank" class="btn btn-outline-dark btn-sm" role="button" aria-pressed="true">
 							<img class="skill-img-2" src="images/github.png" alt="logo"> NLP</a>
 					</div>
-					<p class="project-topic">Sentiment analysis task about the problems of each major U.S. airline</p>
+					<p class="project-topic">Twitter sentiment analysis of each major U.S. airline</p>
 					<br>
 				</div>
 				<div class="carousel-item">
@@ -590,7 +609,7 @@
 						<a href="https://github.com/viktorgyebrovszky/Regression_models/blob/main/Regression_Concrete_Strength_Prediction.ipynb" target="_blank" class="btn btn-outline-dark btn-sm" role="button" aria-pressed="true">
 							<img class="skill-img-2" src="images/github.png" alt="logo"> Supervised Learning</a>
 					</div>
-					<p class="project-topic">Concrete strength prediction</p>
+					<p class="project-topic">Concrete strength prediction using regression methods</p>
 					<br>
 				</div>
 				<div class="carousel-item">
@@ -608,7 +627,7 @@
 						<a href="https://github.com/viktorgyebrovszky/Deep_Neural_Network/blob/main/Deep_Neural_Network_Bank_Churn_Prediction.ipynb" target="_blank" class="btn btn-outline-dark btn-sm" role="button" aria-pressed="true">
 							<img class="skill-img-2" src="images/github.png" alt="logo"> Deep Learning</a>
 					</div>
-					<p class="project-topic">Bank churn prediction</p>
+					<p class="project-topic">Bank churn prediction using neural network</p>
 					<br>
 				</div>
 			</div>
