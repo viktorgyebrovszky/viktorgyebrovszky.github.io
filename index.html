@@ -13,7 +13,8 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
@@ -23,6 +24,7 @@
 	<script type="text/javascript" src="js/typer.js"></script>
 	<script type="text/javascript" src="js/fade-out.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 
 	<!-- BOOTSTRAP SCRIPTS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -492,7 +494,9 @@
 					<div class="card">
 						<img class="uni-img" src="images/uni-texas.png">
 						<div class="card-block">
-							<h4 class="uni-program">AI & Machine Learning</h4>
+							<h4 class="uni-program">AI & Machine Learning
+								<a class="fas fa-award course-certif" href="images/AIML.png" data-lightbox="mygallery" data-title="AI and Machine Learning"></a>
+							</h4>
 							<div class="uni-degree"><a>Post Graduate Program</a></div>
 							<div class="uni-grade">Grade: Excellent</div>
 						</div>
@@ -504,7 +508,9 @@
 					<div class="card">
 						<img class="uni-img" src="images/uni-uol.png">
 						<div class="card-block">
-							<h4 class="uni-program">Physics with Condensed Matter</h4>
+							<h4 class="uni-program">Physics with Condensed Matter
+								<a class="fas fa-award course-certif" href="images/msc.png" data-lightbox="mygallery" data-title="Master's degree"></a>
+							</h4>
 							<div class="uni-degree"><a>Master of Science</a></div>
 							<div class="uni-grade">Grade: 2:1 (Merit)</div>
 						</div>
@@ -516,7 +522,9 @@
 					<div class="card">
 						<img class="uni-img" src="images/uni-qmul.png">
 						<div class="card-block">
-							<h4 class="uni-program">Physics</h4>
+							<h4 class="uni-program">Physics
+								<a class="fas fa-award course-certif" href="images/bsc.png" data-lightbox="mygallery" data-title="Bachelor's degree"></a>
+							</h4>
 							<div class="uni-degree"><a>Bachelor of Science</a></div>
 							<div class="uni-grade">Grade: 1:1 (First Class Honors)</div>
 						</div>
@@ -533,7 +541,7 @@
 					<div class="col-lg-4"></div>
 					<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
 					<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">The Ultimate MySQL Bootcamp: from SQL Beginner to Expert
-						<i class="fas fa-award course-certif"></i>
+						<a class="fas fa-award course-certif" href="images/udemy_sql.jpg" data-lightbox="mygallery" data-title="SQL Bootcamp course certificate"></a>
 					</div>
 					<div class="col-lg-2"></div>
 				</div>
@@ -541,7 +549,7 @@
 					<div class="col-lg-4"></div>
 					<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/udemy.png" alt="job-logo"></span></div>
 					<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Tableau 2020 Certifed Associate Exam Guide A-Z
-						<i class="fas fa-award course-certif"></i>
+						<a class="fas fa-award course-certif" href="images/udemy_tableau.jpg" data-lightbox="mygallery" data-title="Tableau Certifiied Associate course certificate"></a>
 					</div>
 					<div class="col-lg-2"></div>
 				</div>
@@ -567,9 +575,7 @@
 					<div class="col-lg-4"></div>
 					<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/alteryx.png" alt="job-logo"></span></div>
 					<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Alteryx Designer Core
-						<i class="fas fa-award course-certif">
-							<span class="tooltips"><span><img class="certificate" src="images/alteryxcore.png" ></span></span>
-						</i>
+						<a class="fas fa-award course-certif" href="images/alteryxcore.png" data-lightbox="mygallery" data-title="Alteryx Designer Core certificate"></a>
 					</div>
 					<div class="col-lg-2"></div>
 				</div>
@@ -577,9 +583,7 @@
 					<div class="col-lg-4"></div>
 					<div class="col-lg-1 col-md-2 col-sm-2 col-2 course-img-class"><span><img class="course-img" src="images/alteryx.png" alt="job-logo"></span></div>
 					<div class="jobs col-lg-5 col-md-10 col-sm-10 col-10">Alteryx Designer Advanced
-						<i class="fas fa-award course-certif">
-						<span class="tooltips"><span><img class="certificate" src="images/alteryxadvanced.png" ></span></span>
-						</i>
+						<a class="fas fa-award course-certif" href="images/alteryxadvanced.png" data-lightbox="mygallery" data-title="Alteryx Designer Advanced certificate"></a>
 					</div>
 					<div class="col-lg-2"></div>
 				</div>
