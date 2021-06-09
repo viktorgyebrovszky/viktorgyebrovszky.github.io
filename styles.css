@@ -266,6 +266,9 @@ align-items: center;
   /* height: 2rem; */
   /* width: 2rem; */
   /* margin: .3rem; */
+  position:relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .course-img-class {
@@ -276,6 +279,36 @@ align-items: center;
 .course {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* TOOLTIPS */
+
+.tooltips {
+  position: absolute;
+  box-sizing: border-box;
+  /* visibility: hidden; */
+  opacity: 0;
+}
+
+.tooltips:hover {
+  visibility: visible;
+  opacity: 1;
+  /* text-align: left; */
+
+  padding: 0 0 -10px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 20%;
+  left: 50%;
+  cursor: pointer;
+  -webkit-animation: fadeIn 0.7s;
+  animation: fadeIn 0.7s;
+}
+
+.certificate{
+  width: 4000%;
+  height: 3000%;
+  border-radius: 3px;
 }
 
 /* SECTION 8 */
